@@ -5,7 +5,7 @@ project(wenet VERSION 0.1)
 option(CXX11_ABI "whether to use CXX11_ABI libtorch" OFF)
 option(FST_HAVE_BIN "whether to build fst binaries" OFF)
 option(BUILD_TESTING "whether to build unit test" ON)
-option(GRPC "whether to build with gRPC" ON)
+option(GRPC "whether to build with gRPC" O)
 # TODO(Binbin Zhang): Change websocket to OFF since it depends on boost
 #                     which is a very big library
 option(WEBSOCKET "whether to build with websocket" ON)
